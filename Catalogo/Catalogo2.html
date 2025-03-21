@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/cards.css"> 
+        <link rel="stylesheet" href="../styles/product.css">
+
+        <title>Catalogo</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="../imgs/esoLogo.png" width="100" class="rounded">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item bg-dark"><a class="nav-link" href="../Index.html">Inicio</a></li>
+                            <li class="nav-item bg-dark bg-gradient"><a class="nav-link" href="#">Catalogo</a></li>
+                            <li class="nav-item bg-dark"><a class="nav-link" href="../Nosotros.html">Nosotros</a></li>
+                            <li class="nav-item bg-dark"><a class="nav-link" href="../Contacto.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <h2 class="text-center mt-4 mb-3">Catálogo de Productos</h2>
+
+            <div class="product-container">
+
+                <div class="producto-container catalog-card" id="armonica">
+                    <div class="col-imagen">
+                        <img src="../imgs/Armonica.png" alt="Piano" class="img-fluid rounded">
+                    </div>
+                    <div class="col-detalles">
+                        <h1 class="card-title">Armonica $200</h1>
+                        <ul class="nav nav-tabs" id="productTabPiano" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link active" id="caracteristicas-piano-tab" data-bs-toggle="tab" href="#caracteristicas-piano" role="tab" aria-controls="caracteristicas-piano" aria-selected="false">Características</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="descripcion-piano-tab" data-bs-toggle="tab" href="#descripcion-piano" role="tab" aria-controls="descripcion-piano" aria-selected="false">Descripción</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="productTabPianoContent">
+                            <div class="tab-pane fade show active" id="caracteristicas-piano" role="tabpanel" aria-labelledby="caracteristicas-piano-tab">
+                                <p>
+                                    Marca/Modelo: Armonica. <br>
+                                    Tipo: Diatónica. <br>
+                                    Afinación: Clave en C (Do).<br>
+                                    Cuerpo: Construcción de metal para mayor durabilidad y buen sonido.<br>
+                                    Peine: Metal para una respuesta cómoda y precisa.<br>
+                                    Placas de lengüetas: Hechas de latón inoxidable para un sonido brillante y definido.<br>
+                                    Sonido: Rico, expresivo y con gran proyección.
+                                </p>
+                            </div>
+                            <div class="tab-pane fade" id="descripcion-piano" role="tabpanel" aria-labelledby="descripcion-piano-tab">
+                                <p>Se vende armónica en excelente estado, perfecta para principiantes y músicos experimentados. Su sonido claro y potente la hace ideal para interpretar blues, rock, folk y otros estilos musicales.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="producto-container catalog-card">
+                    <div class="col-imagen">
+                        <img src="../imgs/Trompeta.png" alt="Guitarra Acústica" class="img-fluid rounded">
+                    </div>
+                    <div class="col-detalles">
+                        <h1 class="card-title">Trompeta $799</h1>
+                        <ul class="nav nav-tabs" id="productTabGuitar" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link active" id="caracteristicas-guitar-tab" data-bs-toggle="tab" href="#caracteristicas-guitar" role="tab" aria-controls="caracteristicas-guitar" aria-selected="false">Características</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="descripcion-guitar-tab" data-bs-toggle="tab" href="#descripcion-guitar" role="tab" aria-controls="descripcion-guitar" aria-selected="false">Descripción</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="productTabGuitarContent">
+                            <div class="tab-pane fade show active" id="caracteristicas-guitar" role="tabpanel" aria-labelledby="caracteristicas-guitar-tab">
+                                <p>
+                                    Marca/Modelo: Trompeta.<br>
+                                    Material: Latón con acabado en dorado para mayor durabilidad y estética.<br>
+                                    Afinación: En Bb (Si bemol), estándar para la mayoría de las interpretaciones.<br>
+                                    Válvulas: De acción suave y rápida para una ejecución fluida.<br>
+                                    Campana: Diseño optimizado para una proyección clara y potente del sonido.<br>
+                                    Boquilla: Incluida, con ajuste cómodo y precisión tonal.
+                                </p>
+                            </div>
+                            <div class="tab-pane fade" id="descripcion-guitar" role="tabpanel" aria-labelledby="descripcion-guitar-tab">
+                                <p>Se vende trompeta en excelente estado, ideal para estudiantes, músicos intermedios y profesionales. Su construcción de alta calidad garantiza un sonido brillante y potente, perfecto para interpretar jazz, música clásica, banda y otros estilos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="producto-container catalog-card">
+                    <div class="col-imagen">
+                        <img src="../imgs/Clarinete.png" alt="Bajo Eléctrico" class="img-fluid rounded">
+                    </div>
+                    <div class="col-detalles">
+                        <h1 class="card-title">Clarinete $899</h1>
+                        <ul class="nav nav-tabs" id="productTabBass" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link active" id="caracteristicas-bass-tab" data-bs-toggle="tab" href="#caracteristicas-bass" role="tab" aria-controls="caracteristicas-bass" aria-selected="false">Características</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="descripcion-bass-tab" data-bs-toggle="tab" href="#descripcion-bass" role="tab" aria-controls="descripcion-bass" aria-selected="false">Descripción</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="productTabBassContent">
+                            <div class="tab-pane fade show active" id="caracteristicas-bass" role="tabpanel" aria-labelledby="caracteristicas-bass-tab">
+                                <p>
+                                    Marca/Modelo: Clarinete.<br>
+                                    Material: Resina ABS para un sonido rico y duradero.<br>
+                                    Afinación: En Bb (Si bemol), estándar para la mayoría de los clarinetes.<br>
+                                    Llaves: Níquel de acción suave y precisa.<br>
+                                    Cuerpo: Sección desmontable en varias piezas para fácil transporte y limpieza.<br>
+                                    Boquilla: Incluye boquilla con abrazadera y caña.<br>
+                                    Sonido: Tonos claros, suaves y expresivos.
+                                </p>
+                            </div>
+                            <div class="tab-pane fade" id="descripcion-bass" role="tabpanel" aria-labelledby="descripcion-bass-tab">
+                                <p>Se vende clarinete en excelente estado, ideal para estudiantes, músicos intermedios y profesionales. Su construcción de alta calidad ofrece un sonido cálido y equilibrado, perfecto para música clásica, jazz, bandas sinfónicas y más.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="producto-container catalog-card" id = "maracas">
+                    <div class="col-imagen">
+                        <img src="../imgs/Maracas.png" alt="Batería Acústica" class="img-fluid rounded">
+                    </div>
+                    <div class="col-detalles">
+                        <h1 class="card-title">Maracas $1,999</h1>
+                        <ul class="nav nav-tabs" id="productTabDrum" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link active" id="caracteristicas-drum-tab" data-bs-toggle="tab" href="#caracteristicas-drum" role="tab" aria-controls="caracteristicas-drum" aria-selected="false">Características</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="descripcion-drum-tab" data-bs-toggle="tab" href="#descripcion-drum" role="tab" aria-controls="descripcion-drum" aria-selected="false">Descripción</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="productTabDrumContent">
+                            <div class="tab-pane fade show active" id="caracteristicas-drum" role="tabpanel" aria-labelledby="caracteristicas-drum-tab">
+                                <p>
+                                    Material: Madera resistente y duradero.<br>
+                                    Relleno: Perlas o semillas para un sonido nítido y definido.<br>
+                                    Tamaño: 22cm ideal para una manipulación cómoda.<br>
+                                    Sonido: Ritmos cálidos y brillantes con excelente proyección.<br>
+                                    Diseño: Acabado natural con agarre ergonómico.
+                                </p>
+                            </div>
+                            <div class="tab-pane fade" id="descripcion-drum" role="tabpanel" aria-labelledby="descripcion-drum-tab">
+                                <p>Se venden maracas de alta calidad, ideales para músicos, percusionistas y amantes de la música latina. Su diseño ligero y ergonómico permite un agarre cómodo y una ejecución fácil, brindando un sonido vibrante y rítmico perfecto para salsa, cumbia, merengue y otros estilos musicales.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <nav aria-label="Page navigation example" class="text-center">
+                <ul class="pagination justify-content-center mt-4 mb-3">
+                    <li class="page-item">
+                        <a class="page-link" href="../Catalogo.html" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="../Catalogo.html">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="Catalogo3.html">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="../Catalogo/Catalogo3.html" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </main>
+
+        <footer class="bg-dark text-white p-4">
+            <h6>© 2025</h6>
+            <h6>Desarrollado y administrado por Ezo (Gael Etchebest y Ezequiel Santillan).</h6>
+            <h6 style="font-size: small;">Las fotos son a modo ilustrativo. La venta de cualquiera de los productos publicados está sujeta a la verificación de stock y precios. Los precios online para los productos presentados/publicados en www.esomusic.com son válidos tanto para la compra vía internet en la presente página como en nuestra sucursal, sujeto a verificación de los mismos. Consulte el precio de nuestros productos, de lunes a viernes de 11 a 17 hs, sábados de 11 a 14 hs al 11-9999-9999 o a ventas@esomusic.com (Ley 4435 GCBA).</h6>
+        </footer>
+    </body>
+</html>

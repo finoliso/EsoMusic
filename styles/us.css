@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: black;
+}
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+h1, h2 {
+    text-align: center;
+}
+.integrante {
+    text-align: center;
+    margin: 20px 0;
+}
+.integrante img {
+    width: 150px;  /* Definir un tamaño fijo para todas las imágenes */
+    height: 150px; /* Hacer las imágenes cuadradas */
+    border-radius: 50%;
+    object-fit: cover; /* Asegura que las imágenes se ajusten sin distorsionarse */
+}
+.team-section {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+}
+.team-section .integrante {
+    flex: 1;
+}
+.integrante h3, .integrante p {
+    text-align: center;
+}
